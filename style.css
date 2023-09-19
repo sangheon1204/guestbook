@@ -1,5 +1,5 @@
 /* Reset some default browser styles */
-body, h1, p {
+body, h1 {
     margin: 0;
     padding: 0;
 }
@@ -18,6 +18,7 @@ h1 {
 p {
     text-align: center;
     color: #555;
+    margin: 20px;
 }
 
 form {
@@ -64,17 +65,10 @@ h2 {
     color: #333;
 }
 
-/* Style for guest book entries (customize as needed) */
-.entry {
-    background-color: #f9f9f9;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-.entry p {
-    margin: 0;
-    color: #333;
-}
-
+/* #comments {
+    margin: auto;
+    background-color: blue;
+    border: 2px solid #3517b0;
+    height: 300px;
+    width: 500px;
+} */
