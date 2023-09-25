@@ -1,24 +1,37 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <link rel="stylesheet" href="style.css">
-    <title>Guest Book</title>
-    <meta name="viewport" content="width=device-width", initial-scale=1>
+    <title>포도 방명록</title>
+    <meta name="viewport" content="width=device-width" , initial-scale=1>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
 </head>
+
 <body>
-    <h1>podo</h1>
-    <p>
-        방명록을 작성하시면 포도 캐릭터가 생성됩니다.<br>
-        PODO 서비스의 후기를 남겨주세요
-    </p>
-
-    <div id="comments">
-
+    <div class="header">
+        <!-- 나중에 h1 태그는 이미지로 전환 -->
+        <h1>
+            Podo
+        </h1>
+        <p id="description">
+            방명록을 작성하면 포도 캐릭터가 생성됩니다.<br>
+            PODO 서비스 후기를 남겨주세요.
+        </p>
     </div>
-
-    <h2>Guest Book Entries</h2>
-    <div id="guestbook_entries">
-        <!-- Guest book entries will be displayed here -->
+    <div class="comments">
     </div>
+    <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">&raquo;</a>
+    </div>
+    <button>방명록 작성하기</button>
 </body>
+
 </html>
