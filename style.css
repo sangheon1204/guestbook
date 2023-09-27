@@ -70,10 +70,12 @@ body {
 
 .pagination {
     font-size: 17px;
-    margin-top: 10px;
+    margin: 10px auto 0px;
     font-weight: 500;
     line-height: 22px;
     word-wrap: break-word;
+    text-align: center;
+    padding-left: 28px;
 }
 
 .pagination a {
@@ -81,16 +83,16 @@ body {
    color: #222222;
 }
 
+.pagenum {
+    margin-right: 13px;
+}
+
 .pagination_icon {
     width: 13px;
-    margin: 0 15px;
+    margin: 0 28px 0 13px;
 }
 
 .button {
     margin: 12px auto 37px;
     width: 200px;
-}
-
-.pagenum {
-    margin-right: 13px;
 }
