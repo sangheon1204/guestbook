@@ -31,7 +31,7 @@ body {
 
 .container {
     margin: 0 auto;
-    height: 508px;
+    height: 488px;
     width: 335px;
     border: solid 1px #DCDCDC;
     border-radius: 12px;
@@ -40,18 +40,40 @@ body {
 }
 
 .row {
-    margin:90px auto 0;
-    width: 320px;
-}
-.image {
-    width: 83.6px;
-    margin-left: 19.8px;
+    margin: 65px auto 0;
+    height: 80px;
+    padding: 0px 10px 0px 22px;
 }
 
+.image {
+    width: 100%;
+    margin: auto;
+    padding-right: 12px;
+    position: relative;
+    z-index: 1;
+}
+
+.wrapper {
+    position: relative;
+    width: 83.6px;
+    display: inline-block;
+    
+}
+
+.podo {
+    width: 74px;
+    position: absolute;
+    z-index: 2;
+    top: -30px;
+    left: 5px;
+}
 
 .pagination {
-    font-size: 1.2em;
-    margin-top: 3%;
+    font-size: 17px;
+    margin-top: 10px;
+    font-weight: 500;
+    line-height: 22px;
+    word-wrap: break-word;
 }
 
 .pagination a {
@@ -59,6 +81,16 @@ body {
    color: #222222;
 }
 
+.pagination_icon {
+    width: 13px;
+    margin: 0 15px;
+}
+
 .button {
+    margin: 12px auto 37px;
     width: 200px;
+}
+
+.pagenum {
+    margin-right: 13px;
 }
