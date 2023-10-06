@@ -7,7 +7,7 @@ html , body {
     height: 100%; 
     width: 100%; 
     margin: 0;
-    background-color: #f5f5f5;
+    background-color: rgba(245, 245, 245);
 }
 
 body {
@@ -84,3 +84,48 @@ body {
     margin: 25px auto 0px;
     width: 333.2px;
 }
+
+.popup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width : 100vw; 
+    height : 100vh;
+    background-color: rgba(26, 26, 26 ,0.78);
+    z-index: 200;
+}
+
+.content {
+    width: 291px;
+    height: 373px;
+    background-color: #ffffff;
+    margin:259px auto 0px;
+    flex-shrink: 0;
+    border-radius: 28px;
+}
+
+.content-name {
+    padding-top: 42px;
+    color: #424242;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.content-context {
+    width: 210px;
+    height: 150px;
+    text-align: center;
+    margin: 33px auto 0px;
+}
+
+.date {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+    color: #909090;
+}
+
+.button2 {
+    width: 201px;
+}
+
