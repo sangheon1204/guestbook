@@ -93,6 +93,7 @@ body {
     height : 115%;
     background-color: rgba(26, 26, 26 ,0.78);
     z-index: 200;
+    display: none;
 }
 
 .content {

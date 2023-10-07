@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width" , initial-scale=1>
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+    <script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
@@ -26,11 +27,11 @@
         </div>
         <div class="row">
             <img class="shadow" src="static/img/shadow.png">
-            <div class="card">
-                <img class="shadow" src="static/img/podo.png">
+            <div class="card">  
+                <img onclick="openPopUp()" class="shadow" src="static/img/podo.png">
                 <p class="name">조민지</p>
             </div>
-            <img class="shadow" src="static/img/heartpodo.png">
+            <img onclick="openPopUp()" class="shadow" src="static/img/heartpodo.png">
         </div>
         <div class="row">
             <img class="shadow" src="static/img/shadow.png">
@@ -53,7 +54,7 @@
             <p class="content-name">조민지</p>
             <p class="content-context">피곤해 뿌뿌</p>
             <p class="date">23.10.06</p>
-            <a><img class="button2" src="static/img/close.png"></a>
+            <a><img onclick="closePopUp()" class="button2" src="static/img/close.png"></a>
         </div>
     </div>
 </body>
